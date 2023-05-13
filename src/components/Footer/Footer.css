@@ -1,0 +1,29 @@
+.Footer-container{
+    position: relative;
+}
+.Footer-container>hr{
+    border: 1px solid var(--);
+}
+.footer {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    align-items: center;
+    height: 10rem;
+    justify-content: center;
+}
+
+.social-links {
+    display: flex;
+    gap: 4rem;
+    cursor: pointer;
+    justify-content: start;
+  }
+  
+  .social-links img {
+    width: 30px; /* Adjust the width to your desired size */
+    height: 30px; /* Adjust the height to your desired size */
+  }
+  
+
